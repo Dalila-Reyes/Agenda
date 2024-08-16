@@ -1,0 +1,19 @@
+/* src/components/Home.css */
+.home-background {
+    position: relative; /* Necesario para posicionar el pseudo-elemento correctamente */
+    background-image: url('../assets/fondo.jpg'); /* Ruta relativa a tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    min-height: 100vh; /* Asegúrate de que el contenedor tenga al menos el alto de la ventana */
+    color: black; /* Cambia el color del texto a negro */
+    padding: 30px; /* Añade un poco de relleno si es necesario */
+    overflow: hidden; /* Asegura que la capa de superposición no sobresalga del contenedor */
+}
+
+
+
+.home-background > * {
+    position: relative; /* Asegura que el contenido esté por encima de la capa de superposición */
+    z-index: 2; /* Asegura que el contenido esté por encima de la capa de superposición */
+}

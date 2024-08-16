@@ -1,0 +1,11 @@
+/* src/components/Footer.css */
+footer {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: white; /* Color de texto blanco */
+    padding: 1rem 0; /* Espaciado superior e inferior */
+    width: 100%; /* Asegura que el footer ocupe todo el ancho disponible */
+}
+
+footer p {
+    margin-bottom: 0; /* Elimina el margen inferior en el párrafo */
+}
